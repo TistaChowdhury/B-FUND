@@ -827,6 +827,7 @@
   }
 
   .hamburger_menu{
+    display: none;
     position: fixed;
     width: 10rem;
     padding: 2rem 1rem ;
