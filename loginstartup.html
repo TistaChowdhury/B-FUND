@@ -4,23 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="loginStartup.css">
+  <link rel="stylesheet" href="nav_bar.css">
   <title>Login Page</title>
 </head>
 <body>
 
-    <header>
-        <img class="logo_bfund" src="/Screenshot_2023-08-14_105316-removebg-preview.png">
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#investors">Investors</a></li>
-            <li><a href="#startups">Startups</a></li>
-            <li><a href="/aboutus.html">About Us</a></li>
-            <li><a href="#contactForm">Contact</a></li>
-            <li><a href="#">Login</a></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <div class="header_div">
+      <nav>
+        <div class = "nav_primary_div">
+          <div class = "nav_left_div">
+            
+            <ul class="nav_ul">
+              <a href="javascript:history.back()" ><button class="back-button" ><<< </button></a>
+              <li id="nav_icon"><img class="logo_bfund" src="/Screenshot_2023-08-14_105316-removebg-preview.png"></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#investors">Investors</a></li>
+              <li><a href="#startups">Startups</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="#contactForm">Contact</a></li>
+            </ul>
+          </div>
+            <div class="hamburger", id="nav_hamburger">
+              <span class="burger_line"></span>
+              <span class="burger_line"></span>
+              <span class="burger_line"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <aside class="sidebar">
+          <div class="hamburger_menu" id = "nav_hamburger_menu">
+            <h2>LOGIN</h2>
+            <ul>
+              <li><a href="">Investor Login</a></li>
+              <li><a href="loginstartup.html">Startup Login</a></li>
+            </ul>
+          </div>
+        </aside>
+    </div>
+  </header>
       <hr>
       <br>
 
@@ -54,5 +77,6 @@
     </form>
   </div>
   <script src="loginStartup.js"></script>
+  <script src="nav_bar.js"></script>
 </body>
 </html>
