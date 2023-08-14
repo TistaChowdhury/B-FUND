@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styling */
+  body {
+    opacity: 0; /* Initially set the opacity to 0 */
+   
+    transition: opacity 0.8s ease-in; /* Apply the transition property */
+    font-family: Arial, sans-serif;
+    background-color: #178cdb;
+    color: #020202;
+  }
+
+  body.loaded {
+   
+    opacity: 1; /* Change the opacity to 1 when the "loaded" class is added */
+  }
+  
+  
+  /* Header */
+  header {
+    background-color:#178cdb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #222;
+  }
+
+  .back-button {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo_bfund{
+    height: 50px;
+    width: 60px;
+    border: #007bff;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  .hero_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes full viewport height */
+  }
+  .container_image {
+    width: 90%;
+    /* max-width: 1000px; */
+   margin-right: 20px;
+  
+    /* padding: 5px; */
+    text-align: center;
+  }
+  
+  img {
+     width: 1900px;
+     height: 500px;
+    max-width: 100%;
+    align-items: center;
+    border: #333 solid 5px;
+    border-radius: 4px;
+   
+  }
+  
+  .text-area {
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-button{
+    position: sticky;
+    top: 5px;
+    background-color: #133e6b;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+
+  }
+
+  .back-button:hover{
+    background-color: #0056b3;
+
+  }
+
+  .carousel-inner {
+    padding: 0 80px; /* Add padding to the left and right sides */
+  }
+
+  

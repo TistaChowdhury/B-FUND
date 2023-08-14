@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Investment Platform</title>
+  <link rel="stylesheet" href="index.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to B-FUND</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#investors">Investors</a></li>
+        <li><a href="#startups">Startups</a></li>
+        <li><a href="/aboutus.html">About Us</a></li>
+        <li><a href="#contactForm">Contact</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main>
+    <section class="featured-projects">
+      <h2>Featured Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Project Title 1</h3>
+          <p>Description of Project 1.</p>
+          <div class="project-details">
+            <p>Funding Goal: $100,000</p>
+            <p>Expected ROI: 15%</p>
+          </div>
+          <a href="#" class="button">Invest Now</a>
+        </div>
+        <div class="project">
+          <h3>Project Title 2</h3>
+          <p>Description of Project 2.</p>
+          <div class="project-details">
+            <p>Funding Goal: $100,000</p>
+            <p>Expected ROI: 15%</p>
+          </div>
+          <a href="#" class="button">Invest Now</a>
+        </div>
+        <div class="project">
+          <h3>Project Title 3</h3>
+          <p>Description of Project 3.</p>
+          <div class="project-details">
+            <p>Funding Goal: $100,000</p>
+            <p>Expected ROI: 15%</p>
+          </div>
+          <a href="#" class="button">Invest Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-icon">1</div>
+          <h3>Create an Account</h3>
+          <p>Sign up as an investor or startup to get started.</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">2</div>
+          <h3>Explore Projects</h3>
+          <p>Browse through featured projects and startups seeking funding.</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">3</div>
+          <h3>Invest or Fund</h3>
+          <p>Invest in projects as an investor or secure funding as a startup.</p>
+        </div>
+      </div>
+    </section>
+    
+    <div id="investors">
+    <section class="investors">
+        <h2>Featured Investors</h2>
+        <div class="investor-list">
+          <div class="investor">
+            <img src="images/investor 1.jpg" alt="Investor 1">
+            <h3>John Doe</h3>
+            <p>Investment History: 10 projects funded</p>
+            <a href="#" class="button">View Profile</a>
+          </div>
+          <div class="investor">
+            <img src="images/investor 2.jpg" alt="Investor 1">
+            <h3>John Doe</h3>
+            <p>Investment History: 10 projects funded</p>
+            <a href="#" class="button">View Profile</a>
+          </div>
+          <div class="investor">
+            <img src="images/investor 3.jpg" alt="Investor 1">
+            <h3>John Doe</h3>
+            <p>Investment History: 10 projects funded</p>
+            <a href="#" class="button">View Profile</a>
+          </div>
+          <!-- Add more investor profiles here -->
+        </div>
+        <a href="#" class="view-more">View All Investors</a>
+      </section>
+    </div>
+     
+    <div id="startups">
+      <section class="startups">
+        <h2>Featured Startups</h2>
+        <div class="startup-list">
+          <div class="startup">
+            <img src="images/startup 1.png" alt="Startup 1">
+            <h3>Tech Innovators</h3>
+            <p>Seeking Funding: $200,000</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+          <div class="startup">
+            <img src="images/startup 2.png" alt="Startup 1">
+            <h3>Tech Innovators</h3>
+            <p>Seeking Funding: $200,000</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+          <div class="startup">
+            <img src="images/startup 3.png" alt="Startup 1">
+            <h3>Tech Innovators</h3>
+            <p>Seeking Funding: $200,000</p>
+            <a href="#" class="button">Learn More</a>
+          </div>
+          <!-- Add more startup profiles here -->
+        </div>
+        <a href="#" class="view-more">View All Startups</a>
+      </section>
+    </div>
+    </main>
+    <br>
+    <br>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <br>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          
+          <button type="submit">Submit</button>
+        </form>
+        <p id="response"></p>
+      </div>
+      
+      <script src="script.js"></script>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+
+      <footer>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="images/logo-png.png" alt="Your Logo">
+            <p>Your Tagline Here</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Featured Projects</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Startups</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +123-456-7890</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 B-Fund. All rights Reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
