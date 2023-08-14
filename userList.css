@@ -1,0 +1,68 @@
+body{
+  /* Apply the transition property */
+  font-family: Arial, sans-serif;
+  background-color: #178cdb;
+  color: #020202;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body.loaded {
+   
+  opacity: 1; /* Change the opacity to 1 when the "loaded" class is added */
+}
+
+
+header {
+  background-color:#178cdb;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.logo_bfund{
+  height: 50px;
+  width: 60px;
+  border: #007bff;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #222;
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .user-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
