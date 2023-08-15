@@ -10,7 +10,7 @@
    
     transition: opacity 0.8s ease-in; /* Apply the transition property */
     font-family: Arial, sans-serif;
-    background-color: #178cdb;
+    background-image: linear-gradient(to right, rgb(184, 184, 227), rgb(91, 91, 154));
     color: #020202;
   }
 
@@ -117,7 +117,7 @@
   }
   
   .button {
-    background-color: #007bff;
+    background-color:  #3d1567;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -132,13 +132,14 @@
   
   .back-button{
     position: sticky;
-    top: 5px;
-    background-color: #133e6b;
+    top: 15px;
+    background-color:  #3d1567;
     color: white;
     border: none;
     padding: 10px 10px;
     border-radius: 20px;
     cursor: pointer;
+  
    
 
   }
@@ -151,3 +152,65 @@
   .carousel-inner {
     padding: 0 80px; /* Add padding to the left and right sides */
   }
+
+
+  footer {
+    background-color: #f8f2f2;
+    color: #121212;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo img {
+    width: 80px;
+    height: auto;
+    border-color: #f8f2f2;
+  }
+  
+  .footer-logo p {
+    color: #0d0d0d;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: #0c0c0c;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0px;
+  }
+  
+  .footer-bottom p {
+    color: #ccc;
+    font-size: 0.8rem;
+  }
+  

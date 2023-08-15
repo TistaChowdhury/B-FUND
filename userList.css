@@ -1,9 +1,11 @@
+
+
 body{
   /* Apply the transition property */
   font-family: Arial, sans-serif;
-  background-color: #178cdb;
+  background-image: linear-gradient(to right, rgb(184, 184, 227), rgb(91, 91, 154));
   color: #020202;
-  font-family: 'Courier New', Courier, monospace;
+ margin: 0px;
 }
 
 body.loaded {
@@ -22,6 +24,11 @@ body.loaded {
   header h1 {
     font-size: 2.5rem;
   } */
+
+  header{
+    top: 0px;
+    margin: 0px;
+  }
 
   .logo_bfund{
     height: 50px;
@@ -65,4 +72,67 @@ body.loaded {
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+
+  footer {
+    background-color: #f8f2f2;
+    color: #121212;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo img {
+    width: 80px;
+    height: auto;
+    border-color: #f8f2f2;
+  }
+  
+  .footer-logo p {
+    color: #0d0d0d;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: #0c0c0c;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0px;
+  }
+  
+  .footer-bottom p {
+    color: #ccc;
+    font-size: 0.8rem;
+  }
+  
+
   
