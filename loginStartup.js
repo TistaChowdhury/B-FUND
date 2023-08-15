@@ -8,8 +8,10 @@ loginForm.addEventListener('submit', function(event) {
     name: formData.get('name'),
     contact: formData.get('contact'),
     email: formData.get('email'),
+    startupIdea: formData.get('startupIdea'), 
     password: formData.get('password'),
     resume: formData.get('resume'),
+
   };
   users.push(user); // Add the user to the array
   console.log("User added:", user);
