@@ -46,7 +46,7 @@
   .burger_line
   {
     display: block;
-    background-color: black;
+    background-color: rgb(11, 11, 12);
     width : 20px;
     height : 3px;
     margin : 5px auto;
@@ -64,9 +64,10 @@
   .hamburger_menu{
     display: none;
     position: fixed;
-    width: 10rem;
+    width: 9rem;
     padding: 2rem 1rem ;
-    background-color: black;
+    background-color:rgb(167, 218, 243,0.8);
+    border-radius: 10px;
   }
 
   .sidebar h2{
