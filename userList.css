@@ -1,7 +1,7 @@
 .logo_bfund{
   height: 50px;
   width: 60px;
-  border: #007bff;
+  /* border: #007bff; */
 }
 /* Reset some default styling */
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
@@ -11,14 +11,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
 
 /* Set a background color and text color */
 body {
-  background-color: #f4f7f9;
+  background-image: linear-gradient(to right, rgb(184, 184, 227), rgb(91, 91, 154));
   color: #333;
   font-family: Arial, sans-serif;
 }
 
 /* Header styles */
-header {
-  background-color: #007bff;
+/* header {
+  
   color: #fff;
   padding: 10px 0;
   text-align: center;
@@ -75,11 +75,11 @@ header {
 
 /* Sidebar styles */
 .sidebar {
-  background-color: #007bff;
+  /* background-color: #007bff; */
   color: #fff;
   padding: 20px;
   text-align: center;
-}
+} */
 
 /* Main content styles */
 .container {
@@ -121,43 +121,61 @@ header {
 
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+  background-color: #f8f2f2;
+  color: #121212;
+  padding: 20px 0px 0px 0px;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 20px;
 }
 
 .footer-logo img {
-  width: 70px; /* Adjusted width for better visibility */
-  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  width: 80px;
+  height: auto;
+  border-color: #f8f2f2;
+}
+
+.footer-logo p {
+  color: #0d0d0d;
+  font-size: 0.9rem;
+  margin-top: 10px;
 }
 
 .footer-links ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
 }
 
 .footer-links li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .footer-links a {
-  color: #fff;
+  color: #0c0c0c;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
+
+.footer-contact p {
+  margin: 5px 0;
 }
 
 .footer-bottom {
   background-color: #222;
+  text-align: center;
   padding: 10px 0;
+  bottom: 0px;
 }
 
 .footer-bottom p {
-  font-size: 12px;
+  color: #ccc;
+  font-size: 0.8rem;
 }
