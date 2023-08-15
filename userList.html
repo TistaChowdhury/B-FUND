@@ -4,54 +4,160 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="userList.css">
+  <link rel="stylesheet" href="nav_bar.css">
   <title>User List</title>
 </head>
 <body>
 
     <header>
-        <img class="logo_bfund" src="/Screenshot_2023-08-14_105316-removebg-preview.png">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#investors">Investors</a></li>
-            <li><a href="#startups">Startups</a></li>
-            <li><a href="/aboutus.html">About Us</a></li>
-            <li><a href="#contactForm">Contact</a></li>
-            <li><a href="#">Login</a></li>
-          </ul>
-        </nav>
+        <div class="header_div">
+          <nav>
+            <div class = "nav_primary_div">
+              <div class = "nav_left_div">
+                <ul class="nav_ul">
+                  <li id="nav_icon"><img class="logo_bfund" src="/Screenshot_2023-08-14_105316-removebg-preview.png"></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#investors">Investors</a></li>
+                  <li><a href="userList.html">Startups</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="#contactForm">Contact</a></li>
+                </ul>
+              </div>
+                <div class="hamburger", id="nav_hamburger">
+                  <span class="burger_line"></span>
+                  <span class="burger_line"></span>
+                  <span class="burger_line"></span>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <aside class="sidebar">
+              <div class="hamburger_menu" id = "nav_hamburger_menu">
+                <h2>LOGIN</h2>
+                <hr>
+                <ul>
+                  <li><a href="">Investor Login</a></li>
+                  <li><a href="loginstartup.html">Startup Login</a></li>
+                </ul>
+              </div>
+            </aside>
+        </div>
       </header>
-      <hr> 
+    
+      
   <div class="container">
     <h2>Entrepreneurs List</h2>
     <div id="userCards" class="user-cards">
+<<<<<<< HEAD
+      
       <!-- User cards will be dynamically added here -->
     </div>
+    <form>
+      <label for="profilePicture">Profile Picture:</label>
+       <input type="file" id="profilePicture" name="profilePicture">
+    </form>
+=======
+        <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email: priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email:  priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email:  priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+           
+            <p>Email:  priya@gmail.com</p>
+
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email:  priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email: priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email:  priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email:  priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email:  priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+          <div class="user-card">
+            <h3>Priya Malik</h3>
+            <p>Startup Idea: Coffee Shop</p>
+            <p>Email: priya@gmail.com</p>
+            <p><a href="#">Find their ask>></a></p>
+          </div>
+
+    </div>
+    
+    <div id="userCards" class="user-cards">
+
+      <!-- User cards will be dynamically added here -->
+    </div>
+    
+>>>>>>> 664f33f1e06f46a27489dbb1a93b37c22c181afb
   </div>
-  <script>
-    const users = JSON.parse(localStorage.getItem('users') || '[]');
-    const userCardsContainer = document.getElementById('userCards');
 
-    users.forEach((user) => {
-      const userCard = createUserCard(user);
-      userCardsContainer.appendChild(userCard);
-    });
-
-    function createUserCard(user) {
-      const userCard = document.createElement('div');
-      userCard.className = 'user-card';
-
-      const nameElement = document.createElement('h3');
-      nameElement.textContent = user.name;
-
-      const emailElement = document.createElement('p');
-      emailElement.textContent = user.email;
-
-      userCard.appendChild(nameElement);
-      userCard.appendChild(emailElement);
-
-      return userCard;
-    }
-  </script>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="/Screenshot_2023-08-14_105316-removebg-preview.png" alt="Your Logo">
+        <p>Support and Grow</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Featured Projects</a></li>
+          <li><a href="logininvestor.html">Investors</a></li>
+          <li><a href="loginstartup.html">Startups</a></li>
+          <li><a href="#">How It Works</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: contact@example.com</p>
+        <p>Phone: +123-456-7890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 B-Fund. All rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="userList.js"></script>
 </body>
 </html>
