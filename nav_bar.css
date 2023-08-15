@@ -64,19 +64,20 @@
   .hamburger_menu{
     display: none;
     position: fixed;
-    width: 9rem;
-    padding: 2rem 1rem ;
+    width: 10rem;
+    padding: 0.5rem 1rem ;
     background-color:rgb(167, 218, 243,0.8);
     border-radius: 10px;
   }
 
   .sidebar h2{
-    color : white;
+    color : black;
     margin-bottom: 1rem;
   }
 
   .hamburger_menu li a{
-    font-size: 1rem;
+    font-size: 0.95rem;
+    color: black;
   }
 
   .hamburger_menu li{
