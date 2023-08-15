@@ -763,6 +763,7 @@
     font-size: 0.8rem;
   }
   
+<<<<<<< HEAD
   /* navbar CSS */
   .header_div{
     display: flex;
@@ -880,3 +881,5 @@
 #loginForm button {
   margin-top: 10px;
 }
+=======
+>>>>>>> 9983e1665522ca31f6f993bca5e97536ef57f9fe
